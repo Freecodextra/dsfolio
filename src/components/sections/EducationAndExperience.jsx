@@ -1,9 +1,10 @@
 import user_info from "../../data/user_info.js";
 import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
-import { FcGoogle } from "react-icons/fc";
 import { PiCertificateFill } from "react-icons/pi";
-import { SiHackerrank, SiIbm } from "react-icons/si";
+import { SiHackerrank  } from "react-icons/si";
+import { SiSololearn } from "react-icons/si";
+import { FaFreeCodeCamp } from "react-icons/fa";
 
 function EducationAndExperience() {
   return (
@@ -69,10 +70,10 @@ function EducationAndExperience() {
               {user_info.certificates.map((cert, index) => {
                 return (
                   <div className="hs-carousel-slide relative" key={index}>
-                    {cert.icon === "ibm" ? (
-                      <SiIbm className="text-blue-500 absolute right-5 top-0 text-5xl" />
-                    ) : cert.icon === "google" ? (
-                      <FcGoogle className="text-blue-500 absolute right-5 top-3 text-3xl" />
+                    {cert.icon === "sololearn" ? (
+                      <SiSololearn  className="text-blue-500 absolute right-5 top-0 text-5xl" />
+                    ) : cert.icon === "freecodecamp" ? (
+                      <FaFreeCodeCamp className="text-blue-500 absolute right-5 top-3 text-3xl" />
                     ) : (
                       <SiHackerrank className="text-green-500 absolute right-5 top-3 text-3xl" />
                     )}

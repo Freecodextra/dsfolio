@@ -1,110 +1,105 @@
 const info = {
     // ============ MAIN DETAILS ============
     main: {
-        name: "Daniel Shan Balico",
+        name: "Odunayo Joseph Babatunde",
         description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Full-Stack Developer",
-        photo: "../photo.webp",
-        email: "danielshan.balico@gmail.com",
+        photo: "../photo.png",
+        email: "codextrafreelancer@gmail.com",
     },
 
     // ============ SOCIAL LINKS ============
     socials: {
-        twitter: "https://twitter.com/dsbalico",
-		github: "https://github.com/dsbalico",
-		linkedin: "https://linkedin.com/in/dsbalico",
-		instagram: "https://instagram.com/dsbalico",
-		facebook: "https://facebook.com/dsbalico",
+        twitter: "https://twitter.com/proff_official",
+		github: "https://github.com/Freecodextra",
+		linkedin: "https://www.linkedin.com/in/odunayo-joseph-a43a361a0",
+		instagram: "https://instagram.com/proff_official",
+		facebook: "https://www.facebook.com/profile.php?id=100069560193423&mibextid=ZbWKwL",
     },
 
     // ============ PROJECTS ============
     projects: [
         {
-			title: "Pseudocode to C",
-			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Flask, SpaCy",
-			github: "https://github.com/dsbalico/pseudocode-to-c",
-            link: "https://pseudocode-to-c.netlify.app/"
+			title: "Megeminds",
+			description: "Megeminds is an E-commerce website for a clothing and shoe brand. It is designed to provide a seamless shopping experience with features like product browsing, cart management, and secure checkout.",
+            technologies: "React, Tailwind, Django, PostgreSQL",
+			github: "https://github.com/Freecodextra/megaminds",
+            link: "https://megeminds.netlify.app/"
 		},
 
         {
-			title: "YouShare",
-			description: "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-			technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
+			title: "Guarantee Resources",
+			description: "Guarantee Resources is a web application developed for a digital agency company. It showcases the company's services, portfolio, and contact information, providing a professional online presence.",
+			technologies: "React, CSS, Firebase",
+			github: "https://github.com/Freecodextra/digital-agencies-wesite",
+            link: "https://animated-zabaione-903caa.netlify.app/"
 		},
 
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
+			title: "Quiz App with PHP",
+			description: "A web application to practice to practice multichoice questions. It has admin and teacher panel. The admin panel allows the admin to manage teachers and students, while the teacher panel allows teachers to create and manage quizzes.",
+			technologies: "HTML, CSS, JAVASCRIPT, PHP, MySQL",
+			github: "https://github.com/Freecodextra/complete-quiz-app-using-php",
+            link: "https://sturdybuddy.kesug.com/user/"
 		},
 
 		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "React, Tailwind, Firebase",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
+			title: "Herlabyte Revamp",
+			description: "Herlabyte Revamp is a modernized version of the original Herlabyte platform, featuring an updated user interface and enhanced functionality.",
+			technologies: "React, CSS, Firebase",
+			github: "https://github.com/Freecodextra/herlabytes-revamp",
+            link: "https://67d99df0c0e9b30ba5e4deff--elaborate-druid-c49eb6.netlify.app/"
 		},
 
 		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
+			title: "AEISTN Website",
+			description: "AEISTN Website is a non governmental organization (NGO) website designed to provide information about the organization, its mission, and its activities. It features a clean and modern design with easy navigation.",
+			technologies: "Next.js, Tailwind",
+			github: "https://github.com/Freecodextra/aeistn-website",
+            link: "https://aeistn-website.vercel.app/"
 		},
 
 		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
+			title: "Laundry Website",
+			description: "Laundry Website is a landing page built for a laundry service company. It showcases the company's services, pricing, and contact information, providing a professional online presence.",
+			technologies: "HTML, CSS, JavaScript",
+			github: "https://github.com/Freecodextra/Laundry-Website-Landing-Page",
+            link: "https://laundry-website-landing-page.netlify.app/"
 		},
     ],
 
     // ============ EDUCATION ============
     education: [
         {
-            school: "Technological University of the Philippines",
-            degree: "Bachelor of Science in Computer Science",
-            duration: "2020 - 2024",
-            image: "tup.webp"
+            school: "Ahmadu Bello University",
+            degree: "Bachelor of Science in Botany",
+            duration: "2019 - 2024",
+            image: "abu logo.jpg"
         },
-        {
-            school: "STI College",
-            degree: "ICT in Mobile App and Web Development",
-            duration: "2018 - 2020",
-            image: "sti.webp"
-        },
+
     ],
 
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Full-Stack Developer Intern",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Jun 2024 (3 Months)",
+            position: "Full-Stack Developer",
+            company: "Freelance",
+            duration: "Feb 2024 - PRESENT",
             image: "ccci.webp",
             descriptions: [
-                "Completed an extensive training program in full-stack web development.",
-                "Actively contributed to the ongoing development of a web application.",
-                "Mentored by senior developers on best practices and code optimization.",
+                "Delivered 5+ client projects ahead of deadlines, ensuring high client satisfaction and repeat business.",
+                "Collaborated with UX designers to redesign user interfaces, increasing customer satisfaction scores by 30%.",
+                "Reduced website load times by 40% through code refactoring and optimization techniques, improving site performance.",
             ]
         },
         {
-            position: "Work Immersion - Web Developer",
-            company: "St. Peter Velle Technical Training Center",
-            duration: "Nov 2019 - Dec 2019 (1 Month)",
+            position: "Web Developer",
+            company: "Codehub",
+            duration: "July 2022 - Nov 2023 (16 Months)",
             image: "spvttc.webp",
             descriptions: [
-                "Developed Python scripts to automate document score calculations.",
-                "Developed a company website as part of an ICT-related work immersion program."
+                "Boosted user engagement by implementing responsive design principles across all company web projects.",
+                "Designed and implemented full-stack applications utilizing modern frameworks and tools, increasing team development efficiency."
             ]
         },
     ],
@@ -112,59 +107,23 @@ const info = {
     // ============ CERTIFICATES ============
     certificates: [
         {
-            title: "Foundations of Cybersecurity Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
+            title: "Backend Development with PHP Certificate",
+            description: "Provided by soloLearn",
+            icon: "sololearn",
+            link: "https://api2.sololearn.com/v2/certificates/CT-WN7EAYPV/image/png?t=0",
         },
         {
-            title: "Git and GitHub Essentials",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
+            title: "JavaScript Algorithms and Data Structures Certificate",
+            description: "Provided by freeCodeCamp",
+            icon: "freecodecamp",
+            link: "https://www.freecodecamp.org/certification/fcc914c0bd3-d0bc-4d98-8728-9c9998da6142/javascript-algorithms-and-data-structures",
         },
         {
-            title: "Crash Course on Python Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
+            title: "Front End Development with React Certificate",
+            description: "Provided by SoloLearn",
+            icon: "sololearn",
+            link: "https://api2.sololearn.com/v2/certificates/CT-VKI0XWWT/image/png?t=0"
         },
-        {
-            title: "Technical Support Fundamentals Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/P9EH5HNYRESZ"
-        },
-        {
-            title: "Introduction to Web Development with HTML, CSS, JavaScript Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/7b88eb00-e1f9-4ae6-be2a-3b2ae8983c44"
-        },
-        {
-            title: "Introduction to Cloud Computing Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8"
-        },
-        {
-            title: "Django Application Development with SQL and Databases Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/a36dd8a3-1050-4c4e-bcef-97b39babf55e"
-        },
-        {
-            title: "Front-End Developer (React) Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/631ac3acf267"
-        },
-        {
-            title: "Software Engineer Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/efdbdd44eb7d"
-        }
     ],
 
     // ============ CONTACT ============
@@ -174,7 +133,7 @@ const info = {
     },
 
     // ============ FOOTER ============
-    footer: "© 2024 Daniel Shan Balico. All Rights Reserved"
+    footer: "© 2025 Odunayo Joseph Babatunde. All Rights Reserved"
 }
 
 export default info
