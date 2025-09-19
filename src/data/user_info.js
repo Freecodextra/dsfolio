@@ -28,14 +28,6 @@ const info = {
 		},
 
         {
-			title: "Guarantee Resources",
-			description: "Guarantee Resources is a web application developed for a digital agency company. It showcases the company's services, portfolio, and contact information, providing a professional online presence.",
-			technologies: "React, CSS, Firebase",
-			github: "https://github.com/Freecodextra/digital-agencies-wesite",
-            link: "https://animated-zabaione-903caa.netlify.app/"
-		},
-
-        {
 			title: "Quiz App with PHP",
 			description: "A web application to practice to practice multichoice questions. It has admin and teacher panel. The admin panel allows the admin to manage teachers and students, while the teacher panel allows teachers to create and manage quizzes.",
 			technologies: "HTML, CSS, JAVASCRIPT, PHP, MySQL",
@@ -58,13 +50,26 @@ const info = {
 			github: "https://github.com/Freecodextra/aeistn-website",
             link: "https://aeistn-website.vercel.app/"
 		},
-
+        {
+			title: "Aerie Foundation",
+			description: "Aerie Foundation is A Christian Non-governmental Organization sent to fulfill God's mandate of raising a generation rooted in His Word.",
+			technologies: "Next.js, Tailwind",
+			github: "https://github.com/Freecodextra/aeire-foundation",
+            link: "https://aeire-foundation.vercel.app/"
+		},
 		{
 			title: "Laundry Website",
 			description: "Laundry Website is a landing page built for a laundry service company. It showcases the company's services, pricing, and contact information, providing a professional online presence.",
 			technologies: "HTML, CSS, JavaScript",
 			github: "https://github.com/Freecodextra/Laundry-Website-Landing-Page",
             link: "https://laundry-website-landing-page.netlify.app/"
+		},
+                {
+			title: "Guarantee Resources",
+			description: "Guarantee Resources is a web application developed for a digital agency company. It showcases the company's services, portfolio, and contact information, providing a professional online presence.",
+			technologies: "React, CSS, Firebase",
+			github: "https://github.com/Freecodextra/digital-agencies-wesite",
+            link: "https://animated-zabaione-903caa.netlify.app/"
 		},
     ],
 
