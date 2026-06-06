@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: "Heebo", sans-serif;
-
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,18 +13,63 @@
   scroll-behavior: smooth;
 }
 
-/* width */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
-/* Handle */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 ::-webkit-scrollbar-thumb {
-  background: #991b1b;
+  background: rgba(99, 102, 241, 0.3); /* indigo-500/30 */
+  border-radius: 9999px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgba(99, 102, 241, 0.6); /* indigo-500/60 */
+}
+
+/* Premium Visual Elements */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
+}
+
+.dark .bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(99, 102, 241, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 102, 241, 0.02) 1px, transparent 1px);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 dark:from-indigo-400 dark:via-purple-400 dark:to-pink-400;
+}
+
+.gradient-border-hover {
+  position: relative;
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, transparent, transparent);
+  transition: all 0.3s ease;
+}
+
+.gradient-border-hover:hover {
+  background: linear-gradient(to right, #6366f1, #a855f7, #ec4899);
+  padding: 1px;
+}
+
+.glass-panel {
+  @apply bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md border border-zinc-200/50 dark:border-zinc-800/50;
+}
+
+.glass-navbar {
+  @apply bg-white/80 dark:bg-zinc-950/80 backdrop-blur-lg border-b border-zinc-200/40 dark:border-zinc-800/40;
 }

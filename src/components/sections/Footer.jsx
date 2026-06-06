@@ -1,6 +1,6 @@
 import user_info from "../../data/user_info.js";
 import GitHubButton from "react-github-btn";
-import { FaArrowCircleUp } from "react-icons/fa";
+import { ArrowUp } from "lucide-react";
 
 function Footer({ theme }) {
   const scrollToTop = () => {
@@ -11,29 +11,33 @@ function Footer({ theme }) {
   };
 
   return (
-    <footer className="p-4 text-center md:flex justify-between">
-      {/* =========== GITHUB BUTTON =========== */}
-      <GitHubButton
-        className="self-center"
-        href="https://github.com/Freecodextra"
-        data-color-scheme={theme}
-        data-icon="octicon-star"
-        data-size="large"
-        data-show-count="true"
-        aria-label="Star Freecodextra on GitHub"
-      >
-        Star on Github
-      </GitHubButton>
-      {/* =========== USER COPYRIGHT =========== */}
-      <p className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 text-sm text-center font-light">
+    <footer className="p-8 text-center md:flex justify-between items-center bg-zinc-50/50 dark:bg-zinc-950/20 text-zinc-600 dark:text-zinc-400">
+      {/* GitHub Button */}
+      <div className="self-center flex justify-center md:justify-start">
+        <GitHubButton
+          href="https://github.com/Freecodextra"
+          data-color-scheme={theme === "dark" ? "dark" : "light"}
+          data-icon="octicon-star"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star Freecodextra on GitHub"
+        >
+          Star on GitHub
+        </GitHubButton>
+      </div>
+
+      {/* Copyright */}
+      <p className="text-zinc-500 dark:text-zinc-400 text-sm font-light mt-4 md:mt-0">
         {user_info.footer}
       </p>
-      {/* =========== SCROLL ON TOP BUTTON =========== */}
+
+      {/* Back to top */}
       <button
-        onClick={() => scrollToTop()}
-        className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-light flex gap-2"
+        onClick={scrollToTop}
+        className="mt-4 md:mt-0 text-zinc-500 dark:text-zinc-400 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm font-semibold flex items-center gap-2 mx-auto md:mx-0 transition-colors"
       >
-        <FaArrowCircleUp className="self-center text-red-800 dark:text-red-500" /> Go back to top
+        <ArrowUp size={16} />
+        Back to top
       </button>
     </footer>
   );
